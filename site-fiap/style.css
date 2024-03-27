@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1{
+    font-family: alata;
+    color: white;
+    text-align: center;
+}
+
+ul a {
+    align-items: center;
+    display:inline-table;
+    margin: 20px;
+    border: 2px solid #EC185B; 
+    border-radius:20px; 
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+ul img{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: auto 
+}
+
+ul a:hover {
+    transform: scale(1.05);
+}

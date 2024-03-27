@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: alata;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+h2{
+    color: #EC185B;
+}
+
+
+a:link {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+
+a:hover {
+  color:#EC185B;
+  text-decoration:underline;
+}
